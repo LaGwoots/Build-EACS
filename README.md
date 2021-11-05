@@ -9,5 +9,6 @@ Build-EACS was initially designed for the Build Forward Foundation in Richmond, 
 	1x Arduino Uno
 	1x Mean Well RS 15-5 220V to 5V power supply
 	1x Gravity 50A current sensor
+	1x RFID sensor (depends on frequency of card)
 
 As seen in the parts list, there are two boards, the raspberry pi and the arduino uno. At the time of developement, the idea that all functionality could be achieved using the raspbery pi was believed, but the op-amp of the uno was needed for processing the current signal from the wall. For future iterations, a self contained Arduino system in C could be used. If you do not need current readings, the raspberry pi 3B can be used without the addition of the Arduino. 
